@@ -1,0 +1,38 @@
+name: Run Selenium Test and Deploy Allure Report
+
+on:
+  push:
+    branches: [ "master", "main" ]
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: "22"
+          cache: maven
+          distribution: "temurin"
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      - name: Run Tests with Maven
+        run: mvn clean test
+
+      - name: Generate Allure Report
+        if: always()
+        run: mvn allure:report
+
+      - name: Deploy Allure Report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/site/allure-maven-plugin
+          user_name: MohamedY-Selim
+          user_email: mohamed_yehia@acu.edu.eg

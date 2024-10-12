@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Foodics Task Suite" parallel="false">
+
+    <test name="Auth API Tests">
+        <classes>
+            <class name="eg.amazon.testcases.AuthApiTest"/>
+        </classes>
+    </test>
+
+    <test name="WhoAmI API Tests">
+        <classes>
+            <class name="eg.amazon.testcases.WhoAmIApiTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Tests">
+        <classes>
+            <class name="eg.amazon.testcases.OrderTest"/>
+        </classes>
+    </test>
+
+</suite>
