@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Foodics Task Suite",
+    "children" : [ {
+      "name" : "Auth API Tests",
+      "children" : [ {
+        "name" : "eg.amazon.testcases.AuthApiTest",
+        "children" : [ {
+          "name" : "Verify that a valid token is generated",
+          "uid" : "4f65485068f832c3",
+          "parentUid" : "e8be05b560bc9a8590dca69e3efd6114",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728749571358,
+            "stop" : 1728749571364,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e8be05b560bc9a8590dca69e3efd6114"
+      } ],
+      "uid" : "7c9fe4c973130709dd51aac583bef22c"
+    }, {
+      "name" : "WhoAmI API Tests",
+      "children" : [ {
+        "name" : "eg.amazon.testcases.WhoAmIApiTest",
+        "children" : [ {
+          "name" : "testWhoAmIWithToken",
+          "uid" : "82208093ca022346",
+          "parentUid" : "80764a11d8cdab97e9a66d7335e31cc1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728749572273,
+            "stop" : 1728749573227,
+            "duration" : 954
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testWhoAmIWithoutToken",
+          "uid" : "9772aca70babceb",
+          "parentUid" : "80764a11d8cdab97e9a66d7335e31cc1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1728749573229,
+            "stop" : 1728749573879,
+            "duration" : 650
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "80764a11d8cdab97e9a66d7335e31cc1"
+      } ],
+      "uid" : "6ade78362fbb6d6fa8a5a871a2881fa7"
+    }, {
+      "name" : "Order Tests",
+      "children" : [ {
+        "name" : "eg.amazon.testcases.OrderTest",
+        "children" : [ {
+          "name" : "Verify That User Can Complete Order",
+          "uid" : "7ae3c2713bd2cf3",
+          "parentUid" : "3783a9754a86470e328052d8764b7a99",
+          "status" : "broken",
+          "time" : {
+            "start" : 1728749583721,
+            "stop" : 1728749599122,
+            "duration" : 15401
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3783a9754a86470e328052d8764b7a99"
+      } ],
+      "uid" : "aa636152252d56281755980e4955c34b"
+    } ],
+    "uid" : "93177c373516588c187c4b246a09c732"
+  } ]
+}

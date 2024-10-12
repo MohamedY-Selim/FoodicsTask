@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '4.24.0', revision: '748ffc9bc3'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '22.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c4d3336132f3c79dc790c7c81d6f28bd, actions {actions=[org.openqa.selenium.interactions.Sequence@752bcd13]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/t_/mmhnh941511...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49203/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c4d3336132f3c79dc790c7c81d6f28bd",
+      "children" : [ {
+        "name" : "Verify That User Can Complete Order",
+        "uid" : "7ae3c2713bd2cf3",
+        "parentUid" : "b995e7936eea7378bf4f2754a50f7131",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728749583721,
+          "stop" : 1728749599122,
+          "duration" : 15401
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b995e7936eea7378bf4f2754a50f7131"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

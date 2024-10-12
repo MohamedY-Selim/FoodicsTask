@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithoutToken","650",""
+"passed","eg.amazon.testcases.AuthApiTest.testTokenGeneration","6",""
+"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithToken","954",""
+"broken","eg.amazon.testcases.OrderTest.VerifyThatUserCanCompleteOrder","15401",""

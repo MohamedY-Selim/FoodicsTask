@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "eg.amazon.testcases",
+    "children" : [ {
+      "name" : "AuthApiTest",
+      "children" : [ {
+        "name" : "testTokenGeneration",
+        "uid" : "4f65485068f832c3",
+        "parentUid" : "dcb54b365e79ef764e546c59a285e772",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728749571358,
+          "stop" : 1728749571364,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcb54b365e79ef764e546c59a285e772"
+    }, {
+      "name" : "WhoAmIApiTest",
+      "children" : [ {
+        "name" : "testWhoAmIWithToken",
+        "uid" : "82208093ca022346",
+        "parentUid" : "abe5ecd7613734650d1fcd22da816d30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728749572273,
+          "stop" : 1728749573227,
+          "duration" : 954
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testWhoAmIWithoutToken",
+        "uid" : "9772aca70babceb",
+        "parentUid" : "abe5ecd7613734650d1fcd22da816d30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728749573229,
+          "stop" : 1728749573879,
+          "duration" : 650
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abe5ecd7613734650d1fcd22da816d30"
+    }, {
+      "name" : "OrderTest",
+      "children" : [ {
+        "name" : "VerifyThatUserCanCompleteOrder",
+        "uid" : "7ae3c2713bd2cf3",
+        "parentUid" : "26c75b055262381e6b17b241b7f79abd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728749583721,
+          "stop" : 1728749599122,
+          "duration" : 15401
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26c75b055262381e6b17b241b7f79abd"
+    } ],
+    "uid" : "eg.amazon.testcases"
+  } ]
+}
