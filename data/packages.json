@@ -6,12 +6,12 @@
       "name" : "AuthApiTest",
       "children" : [ {
         "name" : "testTokenGeneration",
-        "uid" : "28c572a68bdd991d",
+        "uid" : "fd2ffe0030b31778",
         "parentUid" : "dcb54b365e79ef764e546c59a285e772",
         "status" : "passed",
         "time" : {
-          "start" : 1728750256462,
-          "stop" : 1728750256470,
+          "start" : 1728750513950,
+          "stop" : 1728750513958,
           "duration" : 8
         },
         "flaky" : false,
@@ -22,25 +22,25 @@
       "name" : "WhoAmIApiTest",
       "children" : [ {
         "name" : "testWhoAmIWithToken",
-        "uid" : "35fbfa923d33a6bf",
+        "uid" : "2058528e1303ec12",
         "parentUid" : "abe5ecd7613734650d1fcd22da816d30",
         "status" : "passed",
         "time" : {
-          "start" : 1728750257407,
-          "stop" : 1728750258334,
-          "duration" : 927
+          "start" : 1728750514859,
+          "stop" : 1728750516092,
+          "duration" : 1233
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "testWhoAmIWithoutToken",
-        "uid" : "1926482e4163d4",
+        "uid" : "c8384150c4cdc6c2",
         "parentUid" : "abe5ecd7613734650d1fcd22da816d30",
         "status" : "passed",
         "time" : {
-          "start" : 1728750258338,
-          "stop" : 1728750258678,
-          "duration" : 340
+          "start" : 1728750516096,
+          "stop" : 1728750516974,
+          "duration" : 878
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -50,13 +50,13 @@
       "name" : "OrderTest",
       "children" : [ {
         "name" : "VerifyThatUserCanCompleteOrder",
-        "uid" : "20ce5cdb977f667c",
+        "uid" : "fb32f7b31dd8fe95",
         "parentUid" : "26c75b055262381e6b17b241b7f79abd",
         "status" : "broken",
         "time" : {
-          "start" : 1728750268569,
-          "stop" : 1728750411075,
-          "duration" : 142506
+          "start" : 1728750527184,
+          "stop" : 1728750700305,
+          "duration" : 173121
         },
         "flaky" : false,
         "parameters" : [ ]
