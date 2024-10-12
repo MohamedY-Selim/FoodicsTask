@@ -1,5 +1,5 @@
 "Status","Name","Duration in ms","Description"
-"broken","eg.amazon.testcases.OrderTest.VerifyThatUserCanCompleteOrder","34739",""
-"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithToken","1281",""
-"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithoutToken","886",""
+"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithoutToken","340",""
 "passed","eg.amazon.testcases.AuthApiTest.testTokenGeneration","8",""
+"passed","eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithToken","927",""
+"broken","eg.amazon.testcases.OrderTest.VerifyThatUserCanCompleteOrder","142506",""

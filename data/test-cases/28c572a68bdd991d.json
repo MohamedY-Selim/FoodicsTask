@@ -1,57 +1,57 @@
 {
-  "uid" : "c0fd4bd5ab9c247d",
-  "name" : "testWhoAmIWithoutToken",
-  "fullName" : "eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithoutToken",
-  "historyId" : "c4af0598b59656a0b9d4f1e97a2ff8b",
+  "uid" : "28c572a68bdd991d",
+  "name" : "Verify that a valid token is generated",
+  "fullName" : "eg.amazon.testcases.AuthApiTest.testTokenGeneration",
+  "historyId" : "9b4405df375cbb1cb699dedae109647e",
   "time" : {
-    "start" : 1728750088287,
-    "stop" : 1728750089173,
-    "duration" : 886
+    "start" : 1728750256462,
+    "stop" : 1728750256470,
+    "duration" : 8
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1728750086167,
-      "stop" : 1728750086998,
-      "duration" : 831
+      "start" : 1728750248546,
+      "stop" : 1728750251399,
+      "duration" : 2853
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "testClass",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testWhoAmIWithoutToken"
+    "value" : "testTokenGeneration"
   }, {
     "name" : "parentSuite",
     "value" : "Foodics Task Suite"
   }, {
     "name" : "suite",
-    "value" : "WhoAmI API Tests"
+    "value" : "Auth API Tests"
   }, {
     "name" : "subSuite",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "host",
-    "value" : "Mac-1728747858382.local"
+    "value" : "Mac-1728748887101.local"
   }, {
     "name" : "thread",
-    "value" : "3753@Mac-1728747858382.local.TestNG-test-WhoAmI API Tests-1(27)"
+    "value" : "2630@Mac-1728748887101.local.TestNG-test-Auth API Tests-1(26)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -72,6 +72,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c0fd4bd5ab9c247d.json",
+  "source" : "28c572a68bdd991d.json",
   "parameterValues" : [ ]
 }

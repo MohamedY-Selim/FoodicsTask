@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b6e4220b50464da6",
+      "uid" : "35fbfa923d33a6bf",
       "status" : "passed",
       "time" : {
-        "start" : 1728750087003,
-        "stop" : 1728750088284,
-        "duration" : 1281
+        "start" : 1728750257407,
+        "stop" : 1728750258334,
+        "duration" : 927
       }
     } ]
   },
@@ -28,11 +28,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "29681990db06f6f1",
+      "uid" : "28c572a68bdd991d",
       "status" : "passed",
       "time" : {
-        "start" : 1728750086096,
-        "stop" : 1728750086104,
+        "start" : 1728750256462,
+        "stop" : 1728750256470,
         "duration" : 8
       }
     } ]
@@ -47,13 +47,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75c4e200d2b36363",
+      "uid" : "20ce5cdb977f667c",
       "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='fst-h1-st pageBanner']/h1/b[text()='Video Games']' (tried for 15 second(s) with 500 milliseconds interval)",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='autoOp' and text()='7th District']\"}\n  (Session info: chrome=129.0.6668.90)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.24.0', revision: '748ffc9bc3'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '22.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c6ad72f5ddedbd07ddf03f892d83de22, findElement {using=xpath, value=//li[@class='autoOp' and text()='7th District']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/t_/mmhnh941511...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49204/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c6ad72f5ddedbd07ddf03f892d83de22",
       "time" : {
-        "start" : 1728750098870,
-        "stop" : 1728750133609,
-        "duration" : 34739
+        "start" : 1728750268569,
+        "stop" : 1728750411075,
+        "duration" : 142506
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0fd4bd5ab9c247d",
+      "uid" : "1926482e4163d4",
       "status" : "passed",
       "time" : {
-        "start" : 1728750088287,
-        "stop" : 1728750089173,
-        "duration" : 886
+        "start" : 1728750258338,
+        "stop" : 1728750258678,
+        "duration" : 340
       }
     } ]
   }

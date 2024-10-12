@@ -1,6 +1,5 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "Foodics Task Suite",
     "children" : [ {
@@ -9,12 +8,12 @@
         "name" : "eg.amazon.testcases.AuthApiTest",
         "children" : [ {
           "name" : "Verify that a valid token is generated",
-          "uid" : "29681990db06f6f1",
+          "uid" : "28c572a68bdd991d",
           "parentUid" : "e8be05b560bc9a8590dca69e3efd6114",
           "status" : "passed",
           "time" : {
-            "start" : 1728750086096,
-            "stop" : 1728750086104,
+            "start" : 1728750256462,
+            "stop" : 1728750256470,
             "duration" : 8
           },
           "flaky" : false,
@@ -29,25 +28,25 @@
         "name" : "eg.amazon.testcases.WhoAmIApiTest",
         "children" : [ {
           "name" : "testWhoAmIWithToken",
-          "uid" : "b6e4220b50464da6",
+          "uid" : "35fbfa923d33a6bf",
           "parentUid" : "80764a11d8cdab97e9a66d7335e31cc1",
           "status" : "passed",
           "time" : {
-            "start" : 1728750087003,
-            "stop" : 1728750088284,
-            "duration" : 1281
+            "start" : 1728750257407,
+            "stop" : 1728750258334,
+            "duration" : 927
           },
           "flaky" : false,
           "parameters" : [ ]
         }, {
           "name" : "testWhoAmIWithoutToken",
-          "uid" : "c0fd4bd5ab9c247d",
+          "uid" : "1926482e4163d4",
           "parentUid" : "80764a11d8cdab97e9a66d7335e31cc1",
           "status" : "passed",
           "time" : {
-            "start" : 1728750088287,
-            "stop" : 1728750089173,
-            "duration" : 886
+            "start" : 1728750258338,
+            "stop" : 1728750258678,
+            "duration" : 340
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -61,13 +60,13 @@
         "name" : "eg.amazon.testcases.OrderTest",
         "children" : [ {
           "name" : "Verify That User Can Complete Order",
-          "uid" : "75c4e200d2b36363",
+          "uid" : "20ce5cdb977f667c",
           "parentUid" : "3783a9754a86470e328052d8764b7a99",
           "status" : "broken",
           "time" : {
-            "start" : 1728750098870,
-            "stop" : 1728750133609,
-            "duration" : 34739
+            "start" : 1728750268569,
+            "stop" : 1728750411075,
+            "duration" : 142506
           },
           "flaky" : false,
           "parameters" : [ ]
@@ -77,5 +76,6 @@
       "uid" : "aa636152252d56281755980e4955c34b"
     } ],
     "uid" : "93177c373516588c187c4b246a09c732"
-  } ]
+  } ],
+  "name" : "suites"
 }

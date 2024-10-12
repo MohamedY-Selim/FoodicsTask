@@ -1,69 +1,69 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
-    "name" : "Mac-1728747858382.local",
+    "name" : "Mac-1728748887101.local",
     "children" : [ {
-      "name" : "3753@Mac-1728747858382.local.TestNG-test-Order Tests-1(28)",
+      "name" : "2630@Mac-1728748887101.local.TestNG-test-WhoAmI API Tests-1(27)",
       "children" : [ {
-        "name" : "Verify That User Can Complete Order",
-        "uid" : "75c4e200d2b36363",
-        "parentUid" : "81e410246f6b95e3106fe4d0fb03d937",
-        "status" : "broken",
-        "time" : {
-          "start" : 1728750098870,
-          "stop" : 1728750133609,
-          "duration" : 34739
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "81e410246f6b95e3106fe4d0fb03d937"
-    }, {
-      "name" : "3753@Mac-1728747858382.local.TestNG-test-WhoAmI API Tests-1(27)",
-      "children" : [ {
-        "name" : "testWhoAmIWithToken",
-        "uid" : "b6e4220b50464da6",
-        "parentUid" : "14c39a7702af57307318d0eb6c9b0101",
+        "name" : "testWhoAmIWithoutToken",
+        "uid" : "1926482e4163d4",
+        "parentUid" : "770323580f70128cea8f07ed8a51a0ee",
         "status" : "passed",
         "time" : {
-          "start" : 1728750087003,
-          "stop" : 1728750088284,
-          "duration" : 1281
+          "start" : 1728750258338,
+          "stop" : 1728750258678,
+          "duration" : 340
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "testWhoAmIWithoutToken",
-        "uid" : "c0fd4bd5ab9c247d",
-        "parentUid" : "14c39a7702af57307318d0eb6c9b0101",
+        "name" : "testWhoAmIWithToken",
+        "uid" : "35fbfa923d33a6bf",
+        "parentUid" : "770323580f70128cea8f07ed8a51a0ee",
         "status" : "passed",
         "time" : {
-          "start" : 1728750088287,
-          "stop" : 1728750089173,
-          "duration" : 886
+          "start" : 1728750257407,
+          "stop" : 1728750258334,
+          "duration" : 927
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "14c39a7702af57307318d0eb6c9b0101"
+      "uid" : "770323580f70128cea8f07ed8a51a0ee"
     }, {
-      "name" : "3753@Mac-1728747858382.local.TestNG-test-Auth API Tests-1(26)",
+      "name" : "2630@Mac-1728748887101.local.TestNG-test-Auth API Tests-1(26)",
       "children" : [ {
         "name" : "Verify that a valid token is generated",
-        "uid" : "29681990db06f6f1",
-        "parentUid" : "23fd45928a7f9c6f0326d30d87ec3668",
+        "uid" : "28c572a68bdd991d",
+        "parentUid" : "068af0bd499b60950b7aae44d6d386b2",
         "status" : "passed",
         "time" : {
-          "start" : 1728750086096,
-          "stop" : 1728750086104,
+          "start" : 1728750256462,
+          "stop" : 1728750256470,
           "duration" : 8
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "23fd45928a7f9c6f0326d30d87ec3668"
+      "uid" : "068af0bd499b60950b7aae44d6d386b2"
+    }, {
+      "name" : "2630@Mac-1728748887101.local.TestNG-test-Order Tests-1(28)",
+      "children" : [ {
+        "name" : "Verify That User Can Complete Order",
+        "uid" : "20ce5cdb977f667c",
+        "parentUid" : "a2cfae790a455b62783e9d6bdec3d8c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728750268569,
+          "stop" : 1728750411075,
+          "duration" : 142506
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2cfae790a455b62783e9d6bdec3d8c9"
     } ],
-    "uid" : "6310225b895e6e4647525eff654ac871"
-  } ]
+    "uid" : "6ec37b84bed26185eb34d70c0e923fa8"
+  } ],
+  "name" : "timeline"
 }
