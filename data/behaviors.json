@@ -3,37 +3,37 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Verify that a valid token is generated",
-    "uid" : "b45369aaf600fd34",
+    "uid" : "29681990db06f6f1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1728749939758,
-      "stop" : 1728749939776,
-      "duration" : 18
+      "start" : 1728750086096,
+      "stop" : 1728750086104,
+      "duration" : 8
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "testWhoAmIWithToken",
-    "uid" : "cc5439af274bd4d5",
+    "uid" : "b6e4220b50464da6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1728749940887,
-      "stop" : 1728749941959,
-      "duration" : 1072
+      "start" : 1728750087003,
+      "stop" : 1728750088284,
+      "duration" : 1281
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "testWhoAmIWithoutToken",
-    "uid" : "724e0684be036b43",
+    "uid" : "c0fd4bd5ab9c247d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1728749941963,
-      "stop" : 1728749942682,
-      "duration" : 719
+      "start" : 1728750088287,
+      "stop" : 1728750089173,
+      "duration" : 886
     },
     "flaky" : false,
     "parameters" : [ ]
@@ -43,13 +43,13 @@
       "name" : "Make an Order",
       "children" : [ {
         "name" : "Verify That User Can Complete Order",
-        "uid" : "bce435107986a7c6",
+        "uid" : "75c4e200d2b36363",
         "parentUid" : "570658e572cc94b31b6262a47d2b95bd",
         "status" : "broken",
         "time" : {
-          "start" : 1728749954236,
-          "stop" : 1728749991922,
-          "duration" : 37686
+          "start" : 1728750098870,
+          "stop" : 1728750133609,
+          "duration" : 34739
         },
         "flaky" : false,
         "parameters" : [ ]

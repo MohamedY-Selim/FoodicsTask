@@ -7,13 +7,13 @@
       "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='fst-h1-st pageBanner']/h1/b[text()='Video Games']' (tried for 15 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "Verify That User Can Complete Order",
-        "uid" : "bce435107986a7c6",
+        "uid" : "75c4e200d2b36363",
         "parentUid" : "ca4e4e72686d26b7351ab5a5466b6199",
         "status" : "broken",
         "time" : {
-          "start" : 1728749954236,
-          "stop" : 1728749991922,
-          "duration" : 37686
+          "start" : 1728750098870,
+          "stop" : 1728750133609,
+          "duration" : 34739
         },
         "flaky" : false,
         "parameters" : [ ]

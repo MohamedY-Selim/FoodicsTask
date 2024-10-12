@@ -1,21 +1,21 @@
 {
-  "uid" : "724e0684be036b43",
-  "name" : "testWhoAmIWithoutToken",
-  "fullName" : "eg.amazon.testcases.WhoAmIApiTest.testWhoAmIWithoutToken",
-  "historyId" : "c4af0598b59656a0b9d4f1e97a2ff8b",
+  "uid" : "29681990db06f6f1",
+  "name" : "Verify that a valid token is generated",
+  "fullName" : "eg.amazon.testcases.AuthApiTest.testTokenGeneration",
+  "historyId" : "9b4405df375cbb1cb699dedae109647e",
   "time" : {
-    "start" : 1728749941963,
-    "stop" : 1728749942682,
-    "duration" : 719
+    "start" : 1728750086096,
+    "stop" : 1728750086104,
+    "duration" : 8
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1728749939924,
-      "stop" : 1728749940885,
-      "duration" : 961
+      "start" : 1728750078171,
+      "stop" : 1728750081032,
+      "duration" : 2861
     },
     "description" : "",
     "status" : "passed",
@@ -30,28 +30,28 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "testClass",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "testWhoAmIWithoutToken"
+    "value" : "testTokenGeneration"
   }, {
     "name" : "parentSuite",
     "value" : "Foodics Task Suite"
   }, {
     "name" : "suite",
-    "value" : "WhoAmI API Tests"
+    "value" : "Auth API Tests"
   }, {
     "name" : "subSuite",
-    "value" : "eg.amazon.testcases.WhoAmIApiTest"
+    "value" : "eg.amazon.testcases.AuthApiTest"
   }, {
     "name" : "host",
-    "value" : "Mac-1728748716458.local"
+    "value" : "Mac-1728747858382.local"
   }, {
     "name" : "thread",
-    "value" : "2664@Mac-1728748716458.local.TestNG-test-WhoAmI API Tests-1(27)"
+    "value" : "3753@Mac-1728747858382.local.TestNG-test-Auth API Tests-1(26)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -72,6 +72,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "724e0684be036b43.json",
+  "source" : "29681990db06f6f1.json",
   "parameterValues" : [ ]
 }
