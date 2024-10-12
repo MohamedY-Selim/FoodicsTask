@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82208093ca022346",
+      "uid" : "cc5439af274bd4d5",
       "status" : "passed",
       "time" : {
-        "start" : 1728749572273,
-        "stop" : 1728749573227,
-        "duration" : 954
+        "start" : 1728749940887,
+        "stop" : 1728749941959,
+        "duration" : 1072
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f65485068f832c3",
+      "uid" : "b45369aaf600fd34",
       "status" : "passed",
       "time" : {
-        "start" : 1728749571358,
-        "stop" : 1728749571364,
-        "duration" : 6
+        "start" : 1728749939758,
+        "stop" : 1728749939776,
+        "duration" : 18
       }
     } ]
   },
@@ -47,13 +47,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ae3c2713bd2cf3",
+      "uid" : "bce435107986a7c6",
       "status" : "broken",
-      "statusDetails" : "java.lang.reflect.InvocationTargetException\nBuild info: version: '4.24.0', revision: '748ffc9bc3'\nSystem info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '22.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c4d3336132f3c79dc790c7c81d6f28bd, actions {actions=[org.openqa.selenium.interactions.Sequence@752bcd13]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/t_/mmhnh941511...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49203/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c4d3336132f3c79dc790c7c81d6f28bd",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='fst-h1-st pageBanner']/h1/b[text()='Video Games']' (tried for 15 second(s) with 500 milliseconds interval)",
       "time" : {
-        "start" : 1728749583721,
-        "stop" : 1728749599122,
-        "duration" : 15401
+        "start" : 1728749954236,
+        "stop" : 1728749991922,
+        "duration" : 37686
       }
     } ]
   },
@@ -67,12 +67,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9772aca70babceb",
+      "uid" : "724e0684be036b43",
       "status" : "passed",
       "time" : {
-        "start" : 1728749573229,
-        "stop" : 1728749573879,
-        "duration" : 650
+        "start" : 1728749941963,
+        "stop" : 1728749942682,
+        "duration" : 719
       }
     } ]
   }

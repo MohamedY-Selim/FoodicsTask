@@ -1,41 +1,41 @@
 [ {
-  "uid" : "82208093ca022346",
-  "name" : "testWhoAmIWithToken",
-  "time" : {
-    "start" : 1728749572273,
-    "stop" : 1728749573227,
-    "duration" : 954
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7ae3c2713bd2cf3",
-  "name" : "Verify That User Can Complete Order",
-  "time" : {
-    "start" : 1728749583721,
-    "stop" : 1728749599122,
-    "duration" : 15401
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4f65485068f832c3",
+  "uid" : "b45369aaf600fd34",
   "name" : "Verify that a valid token is generated",
   "time" : {
-    "start" : 1728749571358,
-    "stop" : 1728749571364,
-    "duration" : 6
+    "start" : 1728749939758,
+    "stop" : 1728749939776,
+    "duration" : 18
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9772aca70babceb",
-  "name" : "testWhoAmIWithoutToken",
+  "uid" : "cc5439af274bd4d5",
+  "name" : "testWhoAmIWithToken",
   "time" : {
-    "start" : 1728749573229,
-    "stop" : 1728749573879,
-    "duration" : 650
+    "start" : 1728749940887,
+    "stop" : 1728749941959,
+    "duration" : 1072
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "724e0684be036b43",
+  "name" : "testWhoAmIWithoutToken",
+  "time" : {
+    "start" : 1728749941963,
+    "stop" : 1728749942682,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bce435107986a7c6",
+  "name" : "Verify That User Can Complete Order",
+  "time" : {
+    "start" : 1728749954236,
+    "stop" : 1728749991922,
+    "duration" : 37686
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]
