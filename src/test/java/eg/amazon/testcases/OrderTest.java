@@ -43,6 +43,9 @@ public class OrderTest extends BaseTest {
                 .clickOnSeeAllButton()
                 .clickOnVideoGamesTab()
                 .clickOnAllVideoGamesTab();
+        boolean isVideoGamesPageDisplayed = videoGamesPage
+                .isVideoGamesPageBannerDisplayed();
+        Assert.assertTrue(isVideoGamesPageDisplayed);
         List<String> addedProducts = videoGamesPage.clickOnNewFilter().clickOnFreeShippingFilter().sortByPriceHighToLow().addProductsToCart();
         CartPage cartPage = videoGamesPage.clickOnGoToBasketButton();
         boolean isCartDisplayed = cartPage.isCartDisplayed();
