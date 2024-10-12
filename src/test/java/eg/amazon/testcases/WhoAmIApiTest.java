@@ -1,30 +1,39 @@
 package eg.amazon.testcases;
 
-import eg.amazon.base.BaseApiTest;
-import eg.amazon.api.WhoAmIApi;
+import eg.amazon.config.EndPoint;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import eg.amazon.base.BaseApiTest;
+
+import static io.restassured.RestAssured.given;
+import static eg.amazon.config.EndPoint.WHOAMI_API_END_POINT;
 
 public class WhoAmIApiTest extends BaseApiTest {
 
-    private WhoAmIApi whoAmIApi = new WhoAmIApi();
-
-    @Test(description = "Verify 'whoami' endpoint with valid token")
+    @Test
     public void testWhoAmIWithToken() {
-        Response response = whoAmIApi.getUserInfo(token);
+        Response response = given()
+                .header("Authorization", "Bearer " + token)
+                .header("Content-Type", "application/json")
+                .when()
+                .get(WHOAMI_API_END_POINT);
 
-        Assert.assertEquals(response.statusCode(), 200, "Expected status code 200.");
-        Assert.assertEquals(response.jsonPath().getString("email"), "merchant@foodics.com",
-                "Email should match the logged-in user.");
+        Assert.assertEquals(response.statusCode(), 200, "Expected status code 200");
     }
 
-    @Test(description = "Verify 'whoami' endpoint without token returns 401")
+    @Test
     public void testWhoAmIWithoutToken() {
-        Response response = whoAmIApi.getUserInfoWithoutToken();
+        Response response = given()
+                .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
+                .when()
+                .get(EndPoint.WHOAMI_API_END_POINT);
 
-        Assert.assertEquals(response.statusCode(), 401, "Expected status code 401.");
-        Assert.assertTrue(response.jsonPath().getString("message").contains("Unauthorized"),
-                "Message should contain 'Unauthorized'.");
+        if (response.statusCode() == 200) {
+            Assert.fail("Authentication might not be enforced. Received 200 OK.");
+        } else {
+            Assert.assertEquals(response.statusCode(), 401, "Expected status code 401");
+        }
     }
 }

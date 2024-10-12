@@ -1,27 +1,30 @@
 package eg.amazon.api;
 
-import eg.amazon.config.EndPoint;
-import eg.amazon.utils.ConfigUtils;
 import io.restassured.response.Response;
+
 import static io.restassured.RestAssured.given;
 
 public class WhoAmIApi {
 
-    public Response getUserInfo(String token) {
+    private static final String BASE_URL = "https://pay2.foodics.dev/cp_internal";
+
+    public Response getUserInfoWithToken() {
+        String token = "Lyz22cfYKMetFhKQybx5HAmVimF1i0xO";
+
         return given()
-                .baseUri(ConfigUtils.getInstance().getAPIBaseUrl())
+                .baseUri(BASE_URL)
                 .header("Authorization", "Bearer " + token)
                 .when()
-                .get(EndPoint.WHOAMI_API_END_POINT)
+                .get("/whoami")
                 .then()
                 .extract().response();
     }
 
     public Response getUserInfoWithoutToken() {
         return given()
-                .baseUri(ConfigUtils.getInstance().getAPIBaseUrl())
+                .baseUri(BASE_URL)
                 .when()
-                .get(EndPoint.WHOAMI_API_END_POINT)
+                .get("/whoami")
                 .then()
                 .extract().response();
     }
